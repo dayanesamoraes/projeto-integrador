@@ -1,8 +1,9 @@
+package model;
 public class PesquisaCandidato {
 	//ATRIBUTOS
 	private int numeroVotos;	
 	private Candidato candidato; //relação classe candidato
-	private Pesquisa pesquisa; //relação classe candidato
+	private Pesquisa pesquisa; //relação classe pesquisa
 	//CONSTRUTOR
 	public PesquisaCandidato(int numeroVoto, Candidato candidatos) {
 		numeroVotos = numeroVoto;

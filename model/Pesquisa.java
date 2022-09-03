@@ -1,3 +1,4 @@
+package model;
 public class Pesquisa {
 	//ATRIBUTOS
 	private String nome;
