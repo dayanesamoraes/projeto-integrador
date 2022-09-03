@@ -1,33 +1,38 @@
 public class Candidato {
-	private String Nome;
-	private String Partido;
-	private int Numero;
-		
-	public Candidato(String nome, String partido, int numero) {
-		Nome = nome;
-		Partido = partido;
-		Numero = numero;
+	//ATRIBUTOS
+	private String nome;
+	private String partido;
+	private int numero;
+	//CONSTRUTOR	
+	public Candidato(String nomeCandidato, String partidoCandidato, int numeroCandidato) {
+		nome = nomeCandidato;
+		partido = partidoCandidato;
+		numero = numeroCandidato;
 	}
-	
+	//METODO GET E SET
 	public String getNome() {
-		return Nome;
+		return nome;
 	}
+
 	public void setNome(String nome) {
-		Nome = nome;
+		this.nome = nome;
 	}
+
 	public String getPartido() {
-		return Partido;
+		return partido;
 	}
+
 	public void setPartido(String partido) {
-		Partido = partido;
+		this.partido = partido;
 	}
+
 	public int getNumero() {
-		return Numero;
+		return numero;
 	}
+
 	public void setNumero(int numero) {
-		Numero = numero;
+		this.numero = numero;
 	}
-	
 	
 
 }
